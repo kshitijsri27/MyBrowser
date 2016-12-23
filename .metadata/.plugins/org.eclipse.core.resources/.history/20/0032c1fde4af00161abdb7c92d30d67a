@@ -1,0 +1,24 @@
+package com.Kshitij.MyBrowser;
+
+import java.awt.TextField;
+import javax.swing.JEditorPane;
+import javax.swing.JScrollPane;
+
+public class Browser {
+
+	private TextField addressBar = new TextField();
+	private JEditorPane webPages = new JEditorPane();	//to view and read HTML files
+	private JScrollPane scrollWebPages = new JScrollPane(webPages);
+	
+	public static void main(String[] args) {
+		
+			Browser browse = new Browser();
+			browse.browseFunction();
+	}
+
+	public void frameHandler() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}
